@@ -1,0 +1,28 @@
+Requirements:
+1. numpy
+2. NLTK toolkit
+3. tkinter
+4. pyttsx3 
+5. jupyter notebook
+
+
+* GUI-based chatbot built with Tkinter.
+ How to run:
+1. import the required libraries.
+2. import the chatr file.
+3. download and import the nltk tools like punkt and wordnet and run them all once only not run every time while executing the project.
+4.run every cell one by one in jupyter notebook 
+5. chatbot interface will open
+6. start asking quieries related to vantharr technologies.
+
+* note: you can change the dataset in the chatr file, i had a dataset related to my institution.
+
+
+*note: before installing the libraries create a virtual environment using this commands in cmd(command prompt) in your project folder:
+1. python -m venv myenv(to create a env file, create only once)
+2. myenv\Scripts\activate(to activate the env file, run this command every time while you are running your project) in cmd
+
+3. after activating the env starting installing using:
+* pip install nltk
+* pip install pyttsx3 
+
